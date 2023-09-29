@@ -78,7 +78,6 @@
         if (input.value) {
           socket.emit('chat message', username.value + ": " + input.value);
           input.value = '';
-          username.value = ''
         }
       });
 
